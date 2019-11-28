@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <zip destfile="E:\DevOps November\Maven\Folder-Structure\Abhibus_Somu\target/Abhibus_Somu.zip">
+    <zipfileset includes="lib/**" dir="E:\DevOps November\Maven\Folder-Structure\Abhibus_Somu\target"/>
+    <zipfileset includes="Abhibus_Somu.jar" dir="E:\DevOps November\Maven\Folder-Structure\Abhibus_Somu\target"/>
+    <zipfileset includes="readme.txt" dir="E:\DevOps November\Maven\Folder-Structure\Abhibus_Somu"/>
+  </zip>
+</target>
+</project>
